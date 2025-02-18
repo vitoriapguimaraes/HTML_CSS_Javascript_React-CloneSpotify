@@ -1,0 +1,2 @@
+- Deploy
+- Completar projeto com as duas versões em react
