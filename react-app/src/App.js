@@ -3,10 +3,10 @@ import React from "react";
 import "./reset.css";
 import "./vars.css";
 import "./App.css";
-import Header from "./componentes/Header/Header.js";
-import Sidebar from "./componentes/Sidebar/Sidebar.js";
-import Footer from "./componentes/Footer/Footer.js";
-import Main from "./componentes/Main/Main.js";
+import Header from "./components/Header/Header.js";
+import Sidebar from "./components/Sidebar/Sidebar.js";
+import Footer from "./components/Footer/Footer.js";
+import Main from "./components/Main/Main.js";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Sidebar></Sidebar>
       <Header></Header>
       <Footer></Footer>
+      <Main></Main>
     </div>
   );
 }
